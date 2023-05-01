@@ -59,7 +59,6 @@
             -> 터미널 옵션에서 "기본프로필" 선택후 상단창에서 Command Prompt 선택!
             -> 결과: Command Prompt(기본값) 으로 변경됨!
 
-
         (참고: cmd와 Powershell은 CLI 인터페이스로 컴퓨터 초창기부터
         있어온 명령어입력으로 컴퓨터기능을 수행하는 입력수단이다.
         cmd가 처음부터 있었고 Powershell은 나중에 나와서 명령어를
