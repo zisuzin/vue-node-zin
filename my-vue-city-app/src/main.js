@@ -8,6 +8,11 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store, // 스토어 사용등록
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  methods:{
+    
+  }
 })
+

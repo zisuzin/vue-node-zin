@@ -2,7 +2,7 @@
   <div id="app">
     <TopArea></TopArea>
     <MainArea></MainArea>
-    <!-- <InfoArea></InfoArea> -->
+    <InfoArea></InfoArea>
   </div>
 </template>
 
@@ -18,6 +18,9 @@ export default {
     TopArea,
     MainArea,
     InfoArea
+  },
+  methods:{
+    
   }
 }
 </script>
