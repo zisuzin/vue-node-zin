@@ -1,15 +1,15 @@
 <template>
     <header>
         <ul class="gnb">
-            <li>
-                <a href="#" v-on:click="chgData('서울')">서울</a>
+            <li v-for="(v,i) in sdata" v-bind:key="i">
+                <a href="#" v-on:click="chgData(i)">{{ i }}</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#" v-on:click="chgData('부산')">부산</a>
             </li>
             <li>
                 <a href="#" v-on:click="chgData('제주')">제주</a>
-            </li>
+            </li> -->
         </ul>
     </header>
   </template>
@@ -19,7 +19,7 @@
     name: 'TopArea',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        sdata: this.$store.state.cityData
       }
     },
     methods:{
@@ -31,7 +31,6 @@
               this.$store.state.imgsrc = this.$store.state.cityData[pm].이미지;
               // 2. 도시설명 변수 : desc
               this.$store.state.desc = this.$store.state.cityData[pm].설명;
-  
           }
       }
   }

@@ -12,7 +12,12 @@ new Vue({
   components: { App },
   template: '<App/>',
   methods:{
-    
+    // 스토어 변수 업데이트 메서드
+    chgData(헐, 슉) {
+      console.log("업데이트!",pm);
+      // 뮤테이션 메서드 호출하기!
+      this.$store.commit('chgData',pm);
+    }, // chgData 메서드 //
   }
 })
 
