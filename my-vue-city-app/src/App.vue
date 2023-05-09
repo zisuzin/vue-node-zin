@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <TopArea></TopArea>
-    <MainArea></MainArea>
-    <InfoArea></InfoArea>
+    <TopArea />
+    <MainArea />
+    <InfoArea />
   </div>
 </template>
 
 <script>
-
-import TopArea from './components/TopComp.vue';
-import MainArea from './components/MainComp.vue';
-import InfoArea from './components/InfoComp.vue';
+import TopArea from "./components/TopComp.vue";
+import MainArea from "./components/MainComp.vue";
+import InfoArea from "./components/InfoComp.vue";
 
 export default {
   name: 'App',
@@ -18,20 +17,13 @@ export default {
     TopArea,
     MainArea,
     InfoArea
-  },
-  methods:{
-    
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    width: 500px;
+    margin: 0 auto;
 }
 </style>
