@@ -1,6 +1,6 @@
 // 도시 정보 데이터 JS - cityData.js
 
-const myD0 ={
+const myD0 = {
     인트로: {
         이미지: "https://img.freepik.com/premium-vector/city-illustration_23-2147514701.jpg",
         설명: "도시소개에 오신것을 환영합니다!",
