@@ -1,21 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
-    <MyReal/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import MyReal from './components/MyComp.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    MyReal
-  }
+  name: 'App'
 }
 </script>
 
